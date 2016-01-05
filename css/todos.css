@@ -2,6 +2,8 @@
     border: solid 1px #006699;
     padding: 20px;
     background: #f3f3f3;
+    font-size: 1.2rem;
+    font-family: verdana;
 }
 
 .todos input.textfield {
