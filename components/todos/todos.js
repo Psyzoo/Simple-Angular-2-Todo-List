@@ -21,7 +21,6 @@
                 event.preventDefault();
             },
             deleteTodo: function (index) {
-                console.log(index);
                 this.todos.splice(index, 1);
             }
         })
