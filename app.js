@@ -5,7 +5,7 @@
             selector: 'todos'
         })
         .View({
-            templateUrl: '/modules/todos/todos.html'
+            templateUrl: '/components/todos/template.html'
         })
         .Class({
             constructor: function () {
