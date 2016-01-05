@@ -1,0 +1,16 @@
+{
+  "name": "angulartodo",
+  "version": "2.0.0",
+  "description": "A simple angular 2 todo list",
+  "branch": "",
+  "main": "",
+  "scripts": {},
+  "repository": {},
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "homepage": "",
+  "devDependencies": {
+    "angular2": "2.0.0-alpha.47"
+  }
+}
