@@ -29,4 +29,5 @@
     document.addEventListener('DOMContentLoaded', function() {
         ng.bootstrap(TodosComponent);
     });
+    
 })();
