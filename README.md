@@ -5,14 +5,12 @@ The Typescript version:
 <ul>
   <li>index-ts.html (main index file)</li>
   <li>app-ts directory files</li>
-  <li><a href="http://www.angulartodo.com">Demo</a></li>
 </ul>  
 <br>
 The Javascript version:
 <ul>
   <li>index-js.html (main index file)</li>
   <li>app-js directory files</li>
-  <li><a href="http://www.angulartodo.com/index-js.html">Demo</a></li>
 </ul>  
 <br>
-
+Here is the <a href="http://www.angulartodo.com">Demo</a> for both versions
