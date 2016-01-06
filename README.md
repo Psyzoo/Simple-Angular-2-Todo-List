@@ -13,4 +13,4 @@ The Javascript version:
   <li>app-js directory files</li>
 </ul>  
 <br>
-Here is the <a href="http://www.angulartodo.com">Demo</a> for both versions
+Here's the <a href="http://www.angulartodo.com">demo</a> for both versions
