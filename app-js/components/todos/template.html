@@ -1,0 +1,27 @@
+<div class="box1">
+
+    <div>
+        <form (submit)="addTodo($event)">
+            <input [(ngModel)]="newTodo" (keyup.enter)="newTodo=''" class="textfield">
+            <button  type="submit" [disabled]="newTodo===''">Add Todo</button>
+        </form>
+    </div>
+
+    <ul>
+        <li *ngFor="#todo of todos #i=index">
+            <input type="checkbox" class="checkbox" [(ngModel)]="todo.complete"/>
+            <span [ngClass]="{'checked': todo.complete}">{{ todo.newTodo }}</span>
+            <span (click)="deleteTodo(i)" class="delete-icon">[X]</span>
+        </li>
+    </ul>
+
+    <div [hidden]="newTodo">
+        Type in a new todo...
+    </div>
+
+    <div [hidden]="!newTodo">
+        <!-- Another two-way binding example -->
+        Typing: {{ newTodo }}
+    </div>
+
+</div>

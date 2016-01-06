@@ -2,15 +2,15 @@
 
     <div>
         <form (submit)="addTodo($event)">
-            <input [(ng-model)]="newTodo" (keyup.enter)="newTodo=''" class="textfield">
+            <input [(ngModel)]="newTodo" (keyup.enter)="newTodo=''" class="textfield">
             <button  type="submit" [disabled]="newTodo===''">Add Todo</button>
         </form>
     </div>
 
     <ul>
-        <li *ng-for="#todo of todos #i=index">
-            <input type="checkbox" class="checkbox" [(ng-model)]="todo.complete"/>
-            <span [ng-class]="{'checked': todo.complete}">{{ todo.newTodo }}</span>
+        <li *ngFor="#todo of todos #i=index">
+            <input type="checkbox" class="checkbox" [(ngModel)]="todo.complete"/>
+            <span [ngClass]="{'checked': todo.complete}">{{ todo.newTodo }}</span>
             <span (click)="deleteTodo(i)" class="delete-icon">[X]</span>
         </li>
     </ul>

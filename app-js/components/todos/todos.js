@@ -1,14 +1,15 @@
-(function() {
+(function(app) {
 
-    var TodosComponent = ng.
-        Component({
+    app.TodosComponent = ng.core
+        .Component({
             selector: 'todos'
         })
         .View({
-            templateUrl: '/components/todos/template.html'
+            templateUrl: '/app-js/components/todos/template.html'
         })
         .Class({
             constructor: function () {
+                this.newTodo = '';
                 this.todos = [];
             },
             addTodo: function(event) {
@@ -25,8 +26,4 @@
             }
         })
 
-    document.addEventListener('DOMContentLoaded', function() {
-        ng.bootstrap(TodosComponent);
-    });
-
-})();
+})(window.app || (window.app = {}));

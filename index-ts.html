@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Angular 2 - Simple Todo List Example using Typescript</title>
+    <link href="css/todos.css" rel="stylesheet" type="text/css"/>
+
+    <!-- Angular & Typescript libraries -->
+    <script src="https://code.angularjs.org/2.0.0-beta.0/angular2-polyfills.js"></script>
+    <script src="https://code.angularjs.org/tools/system.js"></script>
+    <script src="https://code.angularjs.org/tools/typescript.js"></script>
+    <script src="https://code.angularjs.org/2.0.0-beta.0/Rx.js"></script>
+    <script src="https://code.angularjs.org/2.0.0-beta.0/angular2.dev.js"></script>
+
+    <!-- Initialize Typescript -->
+    <script>
+        System.config({
+            transpiler: 'typescript',
+            typescriptOptions: { emitDecoratorMetadata: true },
+            packages: {'app-ts': {defaultExtension: 'ts'}}
+        });
+        System.import('app-ts/boot')
+                .then(null, console.error.bind(console));
+    </script>
+
+</head>
+<body>
+
+    <h1>Simple Todo List Example using Angular2</h1>
+
+    <todos class="todos"></todos>
+
+</body>
+</html>
