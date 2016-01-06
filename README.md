@@ -1,6 +1,6 @@
 # Simple-Angular-2-Todo-List
 Simple todo list using Angular 2 (version 2.0.0-beta.0)
-
+<br>
 The Typescript version:
 <ul>
   <li>index-ts.html (main index file)</li>
