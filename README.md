@@ -6,11 +6,11 @@ The Typescript version:
   <li>index-ts.html (main index file)</li>
   <li>app-ts directory files</li>
 </ul>  
-
+<br>
 The Javascript version:
 <ul>
   <li>index-js.html (main index file)</li>
-  <li>app-ss directory files</li>
+  <li>app-js directory files</li>
 </ul>  
 
 <a href="http://www.angulartodo.com">Demo</a>
