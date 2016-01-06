@@ -1,5 +1,5 @@
-# Simple-Angular-2-Todo-List
-Simple todo list using Angular 2 (version 2.0.0-beta.0)
+# Simple Angular 2 Todo List
+Simple Angular 2 (version 2.0.0-beta.0) todo list example using Typescript or plain Javascript
 <br><br><br>
 The Typescript version:
 <ul>
