@@ -2,9 +2,7 @@
 
     app.TodosComponent = ng.core
         .Component({
-            selector: 'todos'
-        })
-        .View({
+            selector: 'todos',
             templateUrl: '/app-js/components/todos/template.html'
         })
         .Class({
