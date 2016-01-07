@@ -1,8 +1,16 @@
-# Simple-Angular-2-Todo-List
-Simple todo list using Angular 2
-
+# Simple Angular 2 Todo List
+Simple Angular 2 (version 2.0.0-beta.0) todo list example using Typescript or plain Javascript
+<br><br><br>
+The Typescript version:
 <ul>
-  <li>run "npm install" in terminal to install Angular2 (version 2.0.0-alpha.47) or "npm install angular2" to fetch the latest version.</li>
-  <li>You can install <a href="https://www.npmjs.com/package/http-server">npm http-server</a> to run the todo list app locally on http://localhost:8080/</li>
-</ul>
-<a href="http://www.angulartodo.com">Demo</a>
+  <li>index-ts.html (main index file)</li>
+  <li>app-ts directory files</li>
+</ul>  
+<br>
+The Javascript version:
+<ul>
+  <li>index-js.html (main index file)</li>
+  <li>app-js directory files</li>
+</ul>  
+<br>
+Here's the <a href="http://www.angulartodo.com">demo</a> for both versions
